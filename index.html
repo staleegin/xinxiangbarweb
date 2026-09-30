@@ -3,36 +3,47 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#eef0ec">
+<meta name="theme-color" content="#ffffff">
 <title>Bar Atlas 新乡酒吧地图</title>
 <meta name="description" content="新乡本地酒吧、酒单与价格，一站查看。">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header class="top">
+<header class="top" id="top">
   <div class="row">
-    <h1>Bar Atlas <span>新乡</span></h1>
-    <button class="ghost" id="join">商家入驻</button>
+    <div><h1>Bar Atlas</h1><p class="sub" id="sub"></p></div>
+    <div class="tools" id="tools">
+      <button id="sortbtn" aria-label="排序" aria-haspopup="menu" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 19V5M4.500 8.500L8 5l3.500 3.500M16 5v14M12.500 15.500L16 19l3.500-3.500"/></svg></button>
+      <button id="morebtn" aria-label="更多" aria-haspopup="menu" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="5.500" cy="12" r="1.600"/><circle cx="12" cy="12" r="1.600"/><circle cx="18.500" cy="12" r="1.600"/></svg></button>
+      <div class="pop" id="pop" role="menu"></div>
+    </div>
   </div>
+  <div class="chips" id="chips" role="group" aria-label="筛选"></div>
+</header>
+
+<div class="sbar" id="sbar" hidden>
   <label class="search">
     <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="9" cy="9" r="5.5"/><path d="m13.5 13.5 4 4"/></svg>
     <input id="q" type="search" placeholder="搜酒吧、酒名、区域" autocomplete="off" enterkeyhint="search">
   </label>
-  <div class="chips" id="chips" role="group" aria-label="筛选"></div>
-</header>
+  <button class="x" id="sx" aria-label="关闭搜索"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 5l10 10M15 5L5 15"/></svg></button>
+</div>
 
 <div class="mapwrap" id="mapwrap" hidden>
   <div class="map" id="amap"></div>
-  <p class="note">示例酒吧没有真实位置，不显示在地图上。</p>
+  <p class="note">酒吧位置来自高德地图，点标记查看详情。</p>
   <p class="note" id="maperr" role="status"></p>
 </div>
 
 <main id="view"></main>
 
-<nav class="tabs" id="tabs">
-  <button data-tab="discover" aria-current="page">发现</button>
-  <button data-tab="fav">收藏 <i id="favn"></i></button>
-  <button data-tab="map">地图</button>
+<nav class="dock" id="dock">
+  <div class="tabs" id="tabs">
+    <button data-tab="discover" aria-current="page"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5h14l-7 8z"/><path d="M12 13v6M8.5 19h7"/></svg>发现</button>
+    <button data-tab="fav"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-8-4.9-8-10.6A4.2 4.2 0 0 1 12 7a4.2 4.2 0 0 1 8 2.4C20 15.100 12 20 12 20z"/></svg>收藏<i id="favn"></i></button>
+    <button data-tab="map"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-6.500-5.400-6.500-10.500a6.500 6.500 0 1 1 13 0C18.500 15.600 12 21 12 21z"/><circle cx="12" cy="10.500" r="2.300"/></svg>地图</button>
+  </div>
+  <button class="sbtn" id="sbtn" aria-label="搜索"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="9" cy="9" r="5.5"/><path d="m13.5 13.5 4 4"/></svg></button>
 </nav>
 
 <div class="wrap" id="wrap">
