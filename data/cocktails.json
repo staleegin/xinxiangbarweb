@@ -1,0 +1,542 @@
+[
+{
+"id": "01-alexander",
+"zh": "亚历山大",
+"en": "Alexander",
+"img": "assets/cocktails/01-alexander.webp"
+},
+{
+"id": "02-americano",
+"zh": "美国佬",
+"en": "Americano",
+"img": "assets/cocktails/02-americano.webp"
+},
+{
+"id": "03-angel-face",
+"zh": "天使之颜",
+"en": "Angel Face",
+"img": "assets/cocktails/03-angel-face.webp"
+},
+{
+"id": "04-aviation",
+"zh": "飞行",
+"en": "Aviation",
+"img": "assets/cocktails/04-aviation.webp"
+},
+{
+"id": "05-between-the-sheets",
+"zh": "床笫之间",
+"en": "Between the Sheets",
+"img": "assets/cocktails/05-between-the-sheets.webp"
+},
+{
+"id": "06-boulevardier",
+"zh": "花花公子",
+"en": "Boulevardier",
+"img": "assets/cocktails/06-boulevardier.webp"
+},
+{
+"id": "07-brandy-crusta",
+"zh": "白兰地库斯塔",
+"en": "Brandy Crusta",
+"img": "assets/cocktails/07-brandy-crusta.webp"
+},
+{
+"id": "08-casino",
+"zh": "赌场",
+"en": "Casino",
+"img": "assets/cocktails/08-casino.webp"
+},
+{
+"id": "09-clover-club",
+"zh": "三叶草俱乐部",
+"en": "Clover Club",
+"img": "assets/cocktails/09-clover-club.webp"
+},
+{
+"id": "10-daiquiri",
+"zh": "代基里",
+"en": "Daiquiri",
+"img": "assets/cocktails/10-daiquiri.webp"
+},
+{
+"id": "11-dry-martini",
+"zh": "干马天尼",
+"en": "Dry Martini",
+"img": "assets/cocktails/11-dry-martini.webp"
+},
+{
+"id": "12-gin-fizz",
+"zh": "金菲士",
+"en": "Gin Fizz",
+"img": "assets/cocktails/12-gin-fizz.webp"
+},
+{
+"id": "13-hanky-panky",
+"zh": "汉基潘基",
+"en": "Hanky Panky",
+"img": "assets/cocktails/13-hanky-panky.webp"
+},
+{
+"id": "14-john-collins",
+"zh": "约翰柯林斯",
+"en": "John Collins",
+"img": "assets/cocktails/14-john-collins.webp"
+},
+{
+"id": "15-last-word",
+"zh": "临别一语",
+"en": "Last word",
+"img": "assets/cocktails/15-last-word.webp"
+},
+{
+"id": "16-manhattan",
+"zh": "曼哈顿",
+"en": "Manhattan",
+"img": "assets/cocktails/16-manhattan.webp"
+},
+{
+"id": "17-martinez",
+"zh": "马丁内斯",
+"en": "Martinez",
+"img": "assets/cocktails/17-martinez.webp"
+},
+{
+"id": "18-mary-pickford",
+"zh": "玛丽·璧克馥",
+"en": "Mary Pickford",
+"img": "assets/cocktails/18-mary-pickford.webp"
+},
+{
+"id": "19-monkey-gland",
+"zh": "猴腺",
+"en": "Monkey Gland",
+"img": "assets/cocktails/19-monkey-gland.webp"
+},
+{
+"id": "20-negroni",
+"zh": "尼格罗尼",
+"en": "Negroni",
+"img": "assets/cocktails/20-negroni.webp"
+},
+{
+"id": "21-old-fashioned",
+"zh": "古典",
+"en": "Old Fashioned",
+"img": "assets/cocktails/21-old-fashioned.webp"
+},
+{
+"id": "22-paradise",
+"zh": "天堂",
+"en": "Paradise",
+"img": "assets/cocktails/22-paradise.webp"
+},
+{
+"id": "23-planter-s-punch",
+"zh": "种植者潘趣",
+"en": "Planter's Punch",
+"img": "assets/cocktails/23-planter-s-punch.webp"
+},
+{
+"id": "24-porto-flip",
+"zh": "波特菲丽普",
+"en": "Porto Flip",
+"img": "assets/cocktails/24-porto-flip.webp"
+},
+{
+"id": "25-ramos-fizz",
+"zh": "拉莫斯金菲士",
+"en": "Ramos Fizz",
+"img": "assets/cocktails/25-ramos-fizz.webp"
+},
+{
+"id": "26-rusty-nail",
+"zh": "锈钉",
+"en": "Rusty Nail",
+"img": "assets/cocktails/26-rusty-nail.webp"
+},
+{
+"id": "27-sazerac",
+"zh": "萨泽拉克",
+"en": "Sazerac",
+"img": "assets/cocktails/27-sazerac.webp"
+},
+{
+"id": "28-sidecar",
+"zh": "边车",
+"en": "Sidecar",
+"img": "assets/cocktails/28-sidecar.webp"
+},
+{
+"id": "29-stinger",
+"zh": "毒刺",
+"en": "Stinger",
+"img": "assets/cocktails/29-stinger.webp"
+},
+{
+"id": "30-tuxedo",
+"zh": "燕尾服",
+"en": "Tuxedo",
+"img": "assets/cocktails/30-tuxedo.webp"
+},
+{
+"id": "31-vieux-carre",
+"zh": "老广场",
+"en": "Vieux Carrè",
+"img": "assets/cocktails/31-vieux-carre.webp"
+},
+{
+"id": "32-whiskey-sour",
+"zh": "威士忌酸",
+"en": "Whiskey Sour",
+"img": "assets/cocktails/32-whiskey-sour.webp"
+},
+{
+"id": "33-white-lady",
+"zh": "白色佳人",
+"en": "White Lady",
+"img": "assets/cocktails/33-white-lady.webp"
+},
+{
+"id": "34-bellini",
+"zh": "贝里尼",
+"en": "Bellini",
+"img": "assets/cocktails/34-bellini.webp"
+},
+{
+"id": "35-black-russian",
+"zh": "黑俄罗斯",
+"en": "Black Russian",
+"img": "assets/cocktails/35-black-russian.webp"
+},
+{
+"id": "36-bloody-mary",
+"zh": "血腥玛丽",
+"en": "Bloody Mary",
+"img": "assets/cocktails/36-bloody-mary.webp"
+},
+{
+"id": "37-caipirinha",
+"zh": "卡琵莉亚",
+"en": "Caipirinha",
+"img": "assets/cocktails/37-caipirinha.webp"
+},
+{
+"id": "38-champagne-cocktail",
+"zh": "香槟鸡尾酒",
+"en": "Champagne Cocktail",
+"img": "assets/cocktails/38-champagne-cocktail.webp"
+},
+{
+"id": "39-corpse-reviver-2",
+"zh": "亡者复苏2号",
+"en": "Corpse Reviver #2",
+"img": "assets/cocktails/39-corpse-reviver-2.webp"
+},
+{
+"id": "40-cosmopolitan",
+"zh": "大都会",
+"en": "Cosmopolitan",
+"img": "assets/cocktails/40-cosmopolitan.webp"
+},
+{
+"id": "41-cuba-libre",
+"zh": "自由古巴",
+"en": "Cuba Libre",
+"img": "assets/cocktails/41-cuba-libre.webp"
+},
+{
+"id": "42-french-75",
+"zh": "法式75",
+"en": "French 75",
+"img": "assets/cocktails/42-french-75.webp"
+},
+{
+"id": "43-french-connection",
+"zh": "法式关系",
+"en": "French Connection",
+"img": "assets/cocktails/43-french-connection.webp"
+},
+{
+"id": "44-golden-dream",
+"zh": "金色梦想",
+"en": "Golden Dream",
+"img": "assets/cocktails/44-golden-dream.webp"
+},
+{
+"id": "45-grasshopper",
+"zh": "绿色蚱蜢",
+"en": "Grasshopper",
+"img": "assets/cocktails/45-grasshopper.webp"
+},
+{
+"id": "46-hemingway-special",
+"zh": "海明威特调",
+"en": "Hemingway Special",
+"img": "assets/cocktails/46-hemingway-special.webp"
+},
+{
+"id": "47-horse-s-neck",
+"zh": "马颈",
+"en": "Horse's Neck",
+"img": "assets/cocktails/47-horse-s-neck.webp"
+},
+{
+"id": "48-irish-coffee",
+"zh": "爱尔兰咖啡",
+"en": "Irish Coffee",
+"img": "assets/cocktails/48-irish-coffee.webp"
+},
+{
+"id": "49-kir",
+"zh": "基尔",
+"en": "KIR",
+"img": "assets/cocktails/49-kir.webp"
+},
+{
+"id": "50-long-island-iced-tea",
+"zh": "长岛冰茶",
+"en": "Long Island Ice Tea",
+"img": "assets/cocktails/50-long-island-iced-tea.webp"
+},
+{
+"id": "51-mai-tai",
+"zh": "迈泰",
+"en": "Mai-Tai",
+"img": "assets/cocktails/51-mai-tai.webp"
+},
+{
+"id": "52-margarita",
+"zh": "玛格丽特",
+"en": "Margarita",
+"img": "assets/cocktails/52-margarita.webp"
+},
+{
+"id": "53-mimosa",
+"zh": "含羞草",
+"en": "Mimosa",
+"img": "assets/cocktails/53-mimosa.webp"
+},
+{
+"id": "54-mint-julep",
+"zh": "薄荷朱利普",
+"en": "Mint Julep",
+"img": "assets/cocktails/54-mint-julep.webp"
+},
+{
+"id": "55-mojito",
+"zh": "莫吉托",
+"en": "Mojito",
+"img": "assets/cocktails/55-mojito.webp"
+},
+{
+"id": "56-moscow-mule",
+"zh": "莫斯科骡子",
+"en": "Moscow Mule",
+"img": "assets/cocktails/56-moscow-mule.webp"
+},
+{
+"id": "57-pina-colada",
+"zh": "椰林飘香",
+"en": "Pina Colada",
+"img": "assets/cocktails/57-pina-colada.webp"
+},
+{
+"id": "58-pisco-sour",
+"zh": "皮斯科酸",
+"en": "Pisco Sour",
+"img": "assets/cocktails/58-pisco-sour.webp"
+},
+{
+"id": "59-sea-breeze",
+"zh": "海风",
+"en": "Sea Breeze",
+"img": "assets/cocktails/59-sea-breeze.webp"
+},
+{
+"id": "60-sex-on-the-beach",
+"zh": "性感沙滩",
+"en": "Sex on the Beach",
+"img": "assets/cocktails/60-sex-on-the-beach.webp"
+},
+{
+"id": "61-singapore-sling",
+"zh": "新加坡司令",
+"en": "Singapore Sling",
+"img": "assets/cocktails/61-singapore-sling.webp"
+},
+{
+"id": "62-tequila-sunrise",
+"zh": "龙舌兰日出",
+"en": "Tequila Sunrise",
+"img": "assets/cocktails/62-tequila-sunrise.webp"
+},
+{
+"id": "63-vesper",
+"zh": "维斯帕",
+"en": "Vesper",
+"img": "assets/cocktails/63-vesper.webp"
+},
+{
+"id": "64-zombie",
+"zh": "僵尸",
+"en": "Zombie",
+"img": "assets/cocktails/64-zombie.webp"
+},
+{
+"id": "65-barracuda",
+"zh": "梭鱼",
+"en": "Barracuda",
+"img": "assets/cocktails/65-barracuda.webp"
+},
+{
+"id": "66-bee-s-knees",
+"zh": "蜂之膝",
+"en": "Bee's Knees",
+"img": "assets/cocktails/66-bee-s-knees.webp"
+},
+{
+"id": "67-bramble",
+"zh": "荆棘",
+"en": "Bramble",
+"img": "assets/cocktails/67-bramble.webp"
+},
+{
+"id": "68-canchanchara",
+"zh": "坎昌查拉",
+"en": "Canchanchara",
+"img": "assets/cocktails/68-canchanchara.webp"
+},
+{
+"id": "69-dark-n-stormy",
+"zh": "月黑风高",
+"en": "Dark 'n' stormy",
+"img": "assets/cocktails/69-dark-n-stormy.webp"
+},
+{
+"id": "70-espresso-martini",
+"zh": "浓缩咖啡马天尼",
+"en": "Espresso Martini",
+"img": "assets/cocktails/70-espresso-martini.webp"
+},
+{
+"id": "71-fernandito",
+"zh": "费尔南迪托",
+"en": "Fernandito",
+"img": "assets/cocktails/71-fernandito.webp"
+},
+{
+"id": "72-french-martini",
+"zh": "法式马天尼",
+"en": "French Martini",
+"img": "assets/cocktails/72-french-martini.webp"
+},
+{
+"id": "73-illegal",
+"zh": "非法",
+"en": "Illegal",
+"img": "assets/cocktails/73-illegal.webp"
+},
+{
+"id": "74-lemon-drop-martini",
+"zh": "柠檬糖马天尼",
+"en": "Lemon drop Martini",
+"img": "assets/cocktails/74-lemon-drop-martini.webp"
+},
+{
+"id": "75-naked-and-famous",
+"zh": "赤裸与著名",
+"en": "Naked and Famous",
+"img": "assets/cocktails/75-naked-and-famous.webp"
+},
+{
+"id": "76-new-york-sour",
+"zh": "纽约酸",
+"en": "New York Sour",
+"img": "assets/cocktails/76-new-york-sour.webp"
+},
+{
+"id": "77-old-cuban",
+"zh": "老古巴人",
+"en": "Old Cuban",
+"img": "assets/cocktails/77-old-cuban.webp"
+},
+{
+"id": "78-paloma",
+"zh": "帕洛玛",
+"en": "Paloma",
+"img": "assets/cocktails/78-paloma.webp"
+},
+{
+"id": "79-paper-plane",
+"zh": "纸飞机",
+"en": "Paper Plane",
+"img": "assets/cocktails/79-paper-plane.webp"
+},
+{
+"id": "80-penicillin",
+"zh": "盘尼西林",
+"en": "Penicillin",
+"img": "assets/cocktails/80-penicillin.webp"
+},
+{
+"id": "81-russian-spring-punch",
+"zh": "俄罗斯春日潘趣",
+"en": "Russian Spring Punch",
+"img": "assets/cocktails/81-russian-spring-punch.webp"
+},
+{
+"id": "82-southside",
+"zh": "南区",
+"en": "Southside",
+"img": "assets/cocktails/82-southside.webp"
+},
+{
+"id": "83-spicy-fifty",
+"zh": "辛辣五十",
+"en": "Spicy Fifty",
+"img": "assets/cocktails/83-spicy-fifty.webp"
+},
+{
+"id": "84-spritz",
+"zh": "斯普里兹",
+"en": "Spritz",
+"img": "assets/cocktails/84-spritz.webp"
+},
+{
+"id": "85-suffering-bastard",
+"zh": "苦难混蛋",
+"en": "Suffering Bastard",
+"img": "assets/cocktails/85-suffering-bastard.webp"
+},
+{
+"id": "86-tipperary",
+"zh": "蒂珀雷里",
+"en": "Tipperary",
+"img": "assets/cocktails/86-tipperary.webp"
+},
+{
+"id": "87-tommy-s-margarita",
+"zh": "汤米玛格丽特",
+"en": "Tommy's Margarita",
+"img": "assets/cocktails/87-tommy-s-margarita.webp"
+},
+{
+"id": "88-trinidad-sour",
+"zh": "特立尼达酸酒",
+"en": "Trinidad Sour",
+"img": "assets/cocktails/88-trinidad-sour.webp"
+},
+{
+"id": "89-ve-n-to",
+"zh": "风",
+"en": "VE.N.TO",
+"img": "assets/cocktails/89-ve-n-to.webp"
+},
+{
+"id": "90-yellow-bird",
+"zh": "黄鸟",
+"en": "Yellow Bird",
+"img": "assets/cocktails/90-yellow-bird.webp"
+}
+]
